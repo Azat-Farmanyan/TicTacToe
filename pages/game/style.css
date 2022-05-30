@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Fontspring-DEMO-lufga-medium.eot");
+  src: local("вє"), url("../fonts/Fontspring-DEMO-lufga-medium.woff") format("woff"),
+    url("../fonts/Fontspring-DEMO-lufga-medium.ttf") format("truetype"),
+    url("../fonts/Fontspring-DEMO-lufga-medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Fontspring-DEMO-lufga-regular.eot");
+  src: local("вє"), url("../fonts/Fontspring-DEMO-lufga-regular.woff") format("woff"),
+    url("../fonts/Fontspring-DEMO-lufga-regular.ttf") format("truetype"),
+    url("../fonts/Fontspring-DEMO-lufga-regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Fontspring-DEMO-lufga-semibold.eot");
+  src: local("вє"), url("../fonts/Fontspring-DEMO-lufga-semibold.woff") format("woff"),
+    url("../fonts/Fontspring-DEMO-lufga-semibold.ttf") format("truetype"),
+    url("../fonts/Fontspring-DEMO-lufga-semibold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*РћР±РЅСѓР»РµРЅРёРµ*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+    background: url(../../images/bg.jpg) center / cover no-repeat;
+}
+.title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #FFFFFF;
+  display: block;
+  margin: 60px auto 60px;
+}
+.game-blocks{
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.cube{
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background: #F1EBFF;
+  border: 1px solid #391A85;
+  border-radius: 20px;
+  margin: 5px;
+}
+.cross img,
+.circle img{
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
