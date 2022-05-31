@@ -122,7 +122,7 @@ h6 {
 
 body{
   font-family: 'Roboto', sans-serif;
-    background: url(../../images/bg.jpg) center / cover no-repeat;
+  background: url(../../images/bg.jpg) center / 100% 150% no-repeat ;
 }
 .title{
   font-family: 'Roboto';
@@ -134,7 +134,7 @@ body{
 
   color: #FFFFFF;
   display: block;
-  margin: 60px auto 60px;
+  margin: 30px auto 30px;
 }
 .game-blocks{
   display: flex;
@@ -149,11 +149,75 @@ body{
   background: #F1EBFF;
   border: 1px solid #391A85;
   border-radius: 20px;
-  margin: 5px;
+  margin: 10px 5px;
+  cursor: pointer;
 }
 .cross img,
 .circle img{
   position: absolute;
   top: 11px;
   left: 11px;
+}
+
+.winner{
+  border-radius: 50px;
+  margin: 25px auto 0;
+  width: 166px;
+  height: 40px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+
+  padding: 7px 7px ;
+}
+
+.blue{
+  background: #0679E3;
+  border: 1px solid #57AEFF;
+  box-shadow: 0px 0px 15px #75A2F7;
+}
+.red{
+  background: #CD0000;
+  border: 1px solid #F20000;
+  box-shadow: 0px 0px 15px rgba(205, 0, 0, 0.62);
+}
+.yellow{
+  background: #F3980F;
+  border: 1px solid #FFB649;
+  box-shadow: 0px 0px 15px rgba(205, 0, 0, 0.62);
+}
+
+.try-again{
+  background: #00b65e;
+  border: 1px solid #63FFB4;
+  box-shadow: 0px 0px 15px #75A2F7;
+  border-radius: 50px;
+  width: 250px;
+  height: 60px;
+  margin: 25px auto 0;
+
+  cursor: pointer;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+
+  text-align: center;
+  color: #FFFFFF;
+
+  padding: 8px;
+}
+.try-again:hover{
+  filter: brightness(120%);
+  color: black;
+}
+.try-again:active{
+  filter: brightness(140%);
 }
